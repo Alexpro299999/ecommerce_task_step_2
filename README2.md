@@ -14,9 +14,9 @@ This repository contains Step 2 of the e-commerce data pipeline project. The pri
 
 ## 📋Acceptance Criteria
 
-* [X]  The `ecommerce_daily_report` DAG is visible in the Airflow UI.
-* [X]  When triggered, the DAG executes the pipeline successfully.
-* [X]  The final report is saved into the `reports/` folder.
+* [ ]  The `ecommerce_daily_report` DAG is visible in the Airflow UI.
+* [ ]  When triggered, the DAG executes the pipeline successfully.
+* [ ]  The final report is saved into the `reports/` folder.
 
 ## 🛠️How to Run
 
