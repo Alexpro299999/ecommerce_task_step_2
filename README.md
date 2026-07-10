@@ -14,6 +14,7 @@ This repository contains Step 2 of the e-commerce data pipeline project. The pri
 
 ## 📋Acceptance Criteria
 
+* [ ]  Each task should be implemented in its own feature branch (determine the number of features and branches yourself).
 * [ ]  The `ecommerce_daily_report` DAG should be visible in the Airflow UI.
 * [ ]  When triggered, the DAG should orchestrate the pipeline.
 * [ ]  The final report should be saved into the `reports/` folder.
