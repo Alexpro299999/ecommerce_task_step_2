@@ -4,9 +4,9 @@ This repository contains Step 2 of the e-commerce data pipeline project. The pri
 
 ## 🎯Objectives
 
-1. **Infrastructure Update**: Added base Airflow services (`airflow-webserver`, `airflow-scheduler`, `airflow-init`) to `docker-compose.yml`. The environment is configured to use `LocalExecutor` to allow parallel task execution.
-2. **Deprecate the Monolith**: Removed the old `main.py` and `main_pipeline.py` files. All orchestration logic now lives strictly inside the Airflow DAG.
-3. **DAG Implementation**: Created the `ecommerce_daily_report` DAG. The pipeline is broken down into simple tasks that invoke the underlying Python business logic:
+1. **Infrastructure Update**: Add base Airflow services (`airflow-webserver`, `airflow-scheduler`, `airflow-init`) to `docker-compose.yml`. Configure the environment to use `LocalExecutor` to allow parallel task execution.
+2. **Deprecate the Monolith**: Remove the old `main.py` and `main_pipeline.py` files. All orchestration logic should be located inside the Airflow DAG.
+3. **DAG Implementation**: Create the `ecommerce_daily_report` DAG. The pipeline should be broken down into simple tasks that invoke the underlying Python business logic:
    * `extract_files_task`
    * `extract_db_task`
    * `transform_task`
@@ -14,9 +14,9 @@ This repository contains Step 2 of the e-commerce data pipeline project. The pri
 
 ## 📋Acceptance Criteria
 
-* [ ]  The `ecommerce_daily_report` DAG is visible in the Airflow UI.
-* [ ]  When triggered, the DAG executes the pipeline successfully.
-* [ ]  The final report is saved into the `reports/` folder.
+* [ ]  The `ecommerce_daily_report` DAG should be visible in the Airflow UI.
+* [ ]  When triggered, the DAG should orchestrate the pipeline.
+* [ ]  The final report should be saved into the `reports/` folder.
 
 ## 🛠️How to Run
 
