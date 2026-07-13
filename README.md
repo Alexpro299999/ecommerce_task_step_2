@@ -12,7 +12,7 @@ This repository contains Step 2 of the e-commerce data pipeline project. The pri
    * `transform_task`
    * `load_task`
 
-##🌿 Git Flow Development Model
+## 🌿 Git Flow Development Model
 
 You must maintain a structured development workflow using the following branch hierarchy:
 
